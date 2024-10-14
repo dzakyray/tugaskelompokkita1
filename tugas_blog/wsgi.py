@@ -14,3 +14,6 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tugas_blog.settings')
 
 application = get_wsgi_application()
 
+# Make sure to set the 'app' variable to 'application'
+app = application
+
