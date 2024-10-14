@@ -1,5 +1,5 @@
-
 {
+  "version": 2,
   "builds": [
     {
       "src": "tugas_blog/wsgi.py",
@@ -12,7 +12,4 @@
       "dest": "tugas_blog/wsgi.py"
     }
   ]
-    
 }
-
-  
