@@ -1,31 +1,18 @@
+
 {
-    "builds": [
-      {
-        "src": "tugas_blog/wsgi.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "tugas_blog/wsgi.py"
-      }
-    ]
+  "builds": [
     {
-  "functions": {
-    "api/**/*.py": {
-      "runtime": "vercel-python@0.5.4"
+      "src": "tugas_blog/wsgi.py",
+      "use": "@vercel/python"
     }
-  }
-  {
-  "functions": {
-    "api/**/*.py": {
-      "runtime": "vercel-python@0.5.4"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "tugas_blog/wsgi.py"
     }
-  }
+  ]
+    
 }
 
-}
-
-  }
   
